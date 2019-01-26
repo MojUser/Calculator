@@ -25,6 +25,9 @@ public class Main {
             double a, b;
 
             switch (choice) {
+                case 0:
+                    System.out.println("Program exits");
+                    break;
                 case 1:
                     System.out.println("Enter first value: ");
                     a = sc.nextDouble();
@@ -58,10 +61,12 @@ public class Main {
                     a = sc.nextDouble();
                     result = calculator.squareRoot(a);
                     break;
+                default:
+                    System.out.println("Unknown value, try again");
+                    break;
             }
 
             if (choice >= 1 && choice <= 5) System.out.println("The result is: " + result);
-            else System.out.println("Program exit");
 
         } while (choice != 0);
     }

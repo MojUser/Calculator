@@ -15,17 +15,7 @@ public class Calculator {
     }
 
     public double divide(double a, double b) {
-
-        double result = 0.0;
-
-        try {
-            result = a/b;
-        } catch (ArithmeticException e) {
-            System.out.println("Division by zero is not allowed");
-            e.printStackTrace();
-        }
-
-        return result;
+        return a/b;
     }
 
     public double squareRoot(double a) {
