@@ -29,11 +29,13 @@ public class Main {
                 break;
             }
             case 2 : {
-                System.out.println("wybrales 2");
+                result = c.multiply(a, b);
+                System.out.println("Mnożenie wynosi: " + result);
                 break;
             }
             case 3 : {
-                System.out.println("wybrales 3");
+                result = c.subtract(a, b);
+                System.out.println("Różnica wynosi: " + result);
                 break;
             }
             default : {
