@@ -1,13 +1,14 @@
 package org.dominwos;
 
+
 import java.util.Scanner;
 
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculator obj = new Calculator();
-        Main main = new Main();
+        Test main = new Test();
 
         System.out.println("Wybierz operacje: 1.+ 2./ 3.* 4.- 5.pow 6. sqrt ");
         switch (sc.nextInt()) {
@@ -38,6 +39,7 @@ public class Main {
                 default:
                     System.out.println(" Nie ma takiej opcji ");
         }
+
     }
         public double daneZKlawiatury () {
             Scanner sc = new Scanner(System.in);
